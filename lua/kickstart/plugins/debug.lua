@@ -147,6 +147,6 @@ return {
       },
     }
     -- Install python config
-    require('dap-python').setup()
+    require('dap-python').setup '~/.virtualenvs/debugpy/bin/python'
   end,
 }
