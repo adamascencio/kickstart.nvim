@@ -679,6 +679,7 @@ require('lazy').setup({
         -- gopls = {},
         bashls = {},
         pyright = {},
+        isort = {},
         html = {},
         cssls = {},
         postgres_lsp = {},
