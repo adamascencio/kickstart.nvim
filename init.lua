@@ -161,6 +161,12 @@ vim.opt.scrolloff = 10
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
+-- Tabs & indentation
+vim.opt.tabstop = 4 -- A tab character is 4 spaces wide
+vim.opt.shiftwidth = 4 -- Indent by 4 spaces when auto-indenting
+vim.opt.expandtab = true -- Convert tabs to spaces
+vim.opt.softtabstop = 4 -- <Tab>/<BS> act like 4 spaces
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
