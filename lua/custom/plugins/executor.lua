@@ -1,5 +1,5 @@
 return {
-  'adamascencio/executor',
+  'adamascencio/executor.nvim',
   config = function()
     vim.keymap.set('n', '<leader>x', function()
       require('executor').run()
